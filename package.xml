@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>ES_Newssubscribers</name>
+    <version>1.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension will help you to get more orders and more newsletter subscribers.</summary>
+    <description>This method is tested and widely used.&#xD;
+&#xD;
+Newsletter Subscription with Free Gift Coupon Extension for Magento. Newsletters are important part of marketing. This method is tested and widely used. This extension will help you to get more orders and more newsletter subscribers. How it works ? This extension show one time per customer popup with newsletter subscribtion form, and suggest to subscribe and get free gift coupon (e.g 5 euro.) for it. If customer has small coupon he want to buy much more. And you have customer email and can send newsletter. You can use only coupon function without popup. Take this awesome extension for free now.</description>
+    <notes>Created Extension</notes>
+    <authors><author><name>Edvinas Stulpinas</name><user>edas1</user><email>st.edvinas@gmail.com</email></author></authors>
+    <date>2013-01-29</date>
+    <time>15:09:56</time>
+    <contents><target name="magecommunity"><dir name="ES"><dir name="Newssubscribers"><dir name="Block"><file name="Newssubscribers.php" hash="e51d71f488a0cec784ad8e53c6a6a5bb"/></dir><dir name="Helper"><file name="Data.php" hash="ba3f62b3c80828031d38c03aec3f29a1"/></dir><dir name="Model"><file name="Subscriber.php" hash="fc8a1d28fba786f299d973b2fe7a9d8c"/><dir name="System"><dir name="Config"><file name="Coupon.php" hash="6dd2bc72766874581888e9bbaab3b9c2"/><file name="Couponlist.php" hash="0c121bbef5916859050509c48769530a"/><file name="Template.php" hash="8ca373825320eec70da8a72210ecf5dd"/></dir></dir></dir><dir name="controllers"><file name="SubscriberController.php" hash="26cd9c6269bb09940f88015d261c1871"/></dir><dir name="etc"><file name="adminhtml.xml" hash="60bc14247201f67f9ec06f7f6a7ddcf9"/><file name="config.xml" hash="a5e667f9426fd0f19bf2d5623eb46760"/><file name="system.xml" hash="be13b69f577d4b844dd83a2d3d044c60"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="newssubscribers.xml" hash="8d9e2f4dbbd09df4f969fc3885f3b273"/></dir><dir name="template"><dir name="newssubscribers"><file name="newssubscribers.phtml" hash="54317787916780249d0887a4711e6b70"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="ES_Newssubscribers.xml" hash="e31dde1dc3a4d0996b27dff707a40b39"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><file name="style-newssubscribers.css" hash="2dd3977aab163d1d7e8fe071ee2eece5"/></dir><dir name="images"><dir name="newssubscribers"><file name="esns_box_block1.png" hash="05baf7a905b6feefc25ffbfb517b285e"/><file name="esns_box_button.png" hash="d9f78b3d715a945be5e4aab7dfffbe25"/><file name="esns_box_close.png" hash="3775c6a77c257caca3ec3a21467121ca"/><file name="esns_box_close2.png" hash="4beddb3ce54d094057c444258e5c3c30"/><file name="esns_box_lines.png" hash="a74efb43c267534b40e29c9674b91423"/><file name="esns_dark2.png" hash="bf0b2d62fbdbabefc190fc72f0d0cd1a"/><file name="esns_input.png" hash="47b2be36d7fe662a4999162d5ddc7d1f"/><file name="esns_label.png" hash="e2044ca3aab12b3a8390ade6af05fb2b"/></dir></dir></dir></dir></dir></target><target name="mage"><dir name="js"><dir name="newssubscribers"><file name="jquery_1_4_2_min.js" hash="b80a2154ce061c8242031d9a4892c5a6"/><file name="script.js" hash="d4215279ce0ff874c9075eaec9793e0f"/></dir></dir><dir><dir name="app"><dir name="locale"><dir name="en_US"><file name="ES_Newssubscribers.csv" hash="174347fbc1407fc3228baf592bc83d75"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.0.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

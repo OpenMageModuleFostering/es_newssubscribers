@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/ES_Newssubscribers",
+    "type": "magento-module",
+    "license": "OSL",
+    "homepage": "",
+    "description": "This extension will help you to get more orders and more newsletter subscribers.",
+    "authors": [
+    {
+        "name": "Edvinas Stulpinas",
+        "email": "st.edvinas@gmail.com"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}

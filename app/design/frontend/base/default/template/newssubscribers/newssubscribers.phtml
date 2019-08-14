@@ -1,5 +1,5 @@
 <?php
-if ($this->isActivePopUp()):
+if ($this->isActivePopUp() && !Mage::helper('newssubscribers')->isMobile()):
 ?>
 <script type="text/javascript">
     <?php if (is_numeric($this->getCookieLifeTime())): ?>
